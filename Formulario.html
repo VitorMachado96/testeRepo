@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicom.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Cadastro de aluno</title>
+</head>
+<body>
+    <div class="form">
+        <form method="post" action="index.php">
+            <h1>Cadastro de alunos</h1><br>
+            <h2>Aluno (a)</h2><br>
+            <label for="name">Nome:</label>
+            <input type="text" size="40" placeholder="Nome Completo">
+            <label for="Cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" size="40" placeholder="email Válido">
+            <label for="RG">RG:</label>
+            <input type="text" placeholder="000.000.000-00"><br><br>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" name="data" id="data"><br><br>
+            <label for="Sexo">Sexo:</label> &nbsp;
+            <label for="mas">Masculino</label>
+            <input type="radio" name="opção" id="Op1">
+            <label for="fem">Feminino</label>
+            <input type="radio" name="opção" id="Op1"><br><br>
+            <h2>Endereço</h2><br><br>
+            <label for="UF">Estado:</label>
+                <select name="Estado" id="UF">
+                    <option value="0">Escolha seu Estado</option>
+                    <optgroup label="Sudeste">
+                        <option value="1">Espirito Santo</option>
+                        <option value="2">Minas Gerais</option>
+                        <option value="3">Rio de Janeiro</option>
+                        <option value="4">São Paulo</option>
+                    </optgroup>
+                </select>
+            <label for="Cidade">Cidade:</label>
+            <input type="text" placeholder="Cidade"><br><br>
+            <label for="Cep">Cep:</label>
+            <input type="text" placeholder="12345-678">
+            <label for="Bairro">Bairro:</label>
+            <input type="text" placeholder="Bairro"><br><br>
+            <label for="Rua">Rua:</label>
+            <input type="text" size="40" placeholder="Logradouro">
+            <label for="Num.">Número:</label>
+            <input type="text" size="6" placeholder="N°"><br><br>
+            <label for="Comp.">Complemento:</label>
+            <input type="text" size="40" placeholder="Casa, Quadra, Lote...">
+            <input type="submit" value="Enviar"> &nbsp; &nbsp;
+            <input type="button" value="Voltar"><br><br>
+        </form>
+
+    </div>
+    <section>
+        <footer>
+            <div class="page-footer">
+                
+                <ul>
+                    <li class="footer-1"><h2>Educação Social</h2>
+                    <p>Empresa exemplar para toda a sua família. 2022 </p>
+                    </li>
+    
+                    <li class="footer-2"><h2>Contato</h2>
+                    <a href="#"><img src="imagens/whatsapp.png"></a>
+                    <a href="#"><img src="imagens/facebook.png"></i></a>
+                    <a href="#"><img src="imagens/instagram.png"></a>
+                    <a href="#"><img src="imagens/twitter.png"></a>
+                    </li>
+                
+                    <li class="footer-3"><h2>Endereço</h2>
+                        <p>Estr. nova campina, 256 - Campo Grande,RJ</p>
+                    </li>
+                </ul>
+    
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
